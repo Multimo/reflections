@@ -5,3 +5,21 @@ creates a empty git repositiory, we need to do it because it will lay the ground
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 a prep area between working dir and respoitiory, usefull for only committing select files and having more control over the process
+
+How can you use the staging area to make sure you have one commit per logical change?
+make sure the change is correct before it becomes a commit, have control over which files
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Useful to keeping an organised history when creating different versions of same files but dont want it part of main branch. "when ever doing something new, working on new content"
+
+How do the diagrams help you visualize the branch structure?
+show how history can be non-linear yet still retain a structure and be fairly simple
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merges code into eachother with master as no lable. histories are merged as well hence the graph. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pro's: lightweight solution, more human problemsolves makes less room for complicated bugs due to more control over code
+cons: takes more time, can be difficult and slow down production/development
+
+http://forums.udacity.com/questions/100229044/reflections-repositories?page=48&focusedAnswerId=100271006#100271006
